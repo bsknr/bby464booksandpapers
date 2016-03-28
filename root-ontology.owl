@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/TIEXjYeVrNOICuefUFXjP#"
+     xml:base="http://webprotege.stanford.edu/project/TIEXjYeVrNOICuefUFXjP"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/TIEXjYeVrNOICuefUFXjP"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAnmkl7wPxXS3jtRAp8X6G -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBAnmkl7wPxXS3jtRAp8X6G">
+        <rdfs:label>coverwith</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLSpDdoTk21CcxciUhXh2w -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBLSpDdoTk21CcxciUhXh2w">
+        <rdfs:label>quality level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCj7bpBAsl1uXi0ThZDOVmQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCj7bpBAsl1uXi0ThZDOVmQ">
+        <rdfs:label>quality levels</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7R8T69LEcmDKI8l9YckdnL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7R8T69LEcmDKI8l9YckdnL">
+        <rdfs:label>newsprint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8AeuWyJEgNlOwgFqExumqM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8AeuWyJEgNlOwgFqExumqM">
+        <rdfs:label>boldcover</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98z0lkGF9UgH6ATlzwPpSr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98z0lkGF9UgH6ATlzwPpSr">
+        <rdfs:label>cast coated paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAjsUbeAIX141sAc4AslcL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl">
+        <rdfs:label>bookpapers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN">
+        <rdfs:label>bookcovers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vvSXvtyMehwxQzW3sW7eS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vvSXvtyMehwxQzW3sW7eS">
+        <rdfs:label>a lightly glazed paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAjsUbeAIX141sAc4AslcL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAjsUbeAIX141sAc4AslcL">
+        <rdfs:label>coated paper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOxWMjMk9q13XTWFAuZTvf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOxWMjMk9q13XTWFAuZTvf">
+        <rdfs:label>leather bound book</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBaAPaEaaN6JbbMxbHT0c8i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBaAPaEaaN6JbbMxbHT0c8i">
+        <rdfs:label>light-weight coated</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAjsUbeAIX141sAc4AslcL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkRzmeMlAgX6H9BhPJSMkV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkRzmeMlAgX6H9BhPJSMkV">
+        <rdfs:label>showercover</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBAnmkl7wPxXS3jtRAp8X6G"/>
+                <owl:hasValue>plastic</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxKULdJXBAFuDc3vrS61z3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCxKULdJXBAFuDc3vrS61z3">
+        <rdfs:label>woodcover</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9q3aAeCJBrAnUQOidVfGN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBAnmkl7wPxXS3jtRAp8X6G"/>
+                <owl:hasValue>wood</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRExuRvLx16paGa1wifEjf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRExuRvLx16paGa1wifEjf">
+        <rdfs:label>high-grade paper pulp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9oMRHGxap2CZVfCw8Whvzl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
